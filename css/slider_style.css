@@ -1,0 +1,71 @@
+
+#flexiselDemo1, #flexiselDemo2, #flexiselDemo3 {
+display:none;
+}
+
+.nbs-flexisel-container {
+    position:relative;
+    max-width:100%;
+    margin: 0 auto;
+}
+.nbs-flexisel-ul {
+    position:relative;
+    width:9999px;
+    margin:0px;
+    padding:0px;
+    list-style-type:none;   
+    text-align:center;  
+}
+
+.nbs-flexisel-inner {
+    overflow:hidden;
+    margin:0 auto;
+    width:90%;
+}
+
+.nbs-flexisel-item {
+    float:left;
+    margin:0px;
+    padding:0px;
+    cursor:pointer;
+    position:relative;
+    line-height:0px;
+}
+.nbs-flexisel-item img {
+    cursor: pointer;
+    position: relative;
+    max-width:134px;
+    max-height:82px;
+}
+
+/*** Navigation ***/
+
+
+.nbs-flexisel-nav-left {
+    height: 23px;
+    width: 13px;
+    background: #fff url(../img/arrow.jpg) 0 0 no-repeat;  
+    margin-top:5px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.nbs-flexisel-nav-right {
+    position: absolute;
+    right:0;
+    height: 23px;
+    width: 13px;
+    background: #fff url(../img/arrow.jpg) 0 0 no-repeat;  
+    margin-top: 5px;
+    -moz-transform:rotate(180deg);
+    -o-transform:rotate(180deg);
+    -webkit-transform:rotate(180deg);
+    transform: rotate(180deg);
+    height: 23px;
+    width: 13px;
+    cursor: pointer;
+}
+
+.nbs-flexisel-nav-right:hover, .nbs-flexisel-nav-left:hover {
+    opacity: .5;
+ {

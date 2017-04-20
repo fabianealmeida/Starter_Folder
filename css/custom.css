@@ -1,0 +1,208 @@
+/* -------------------------------------
+Filename: 		  	custom.css
+Description: 	  	Css Global
+Author: 		  	  Fabiane Almeida
+Company:      		xxxx
+Website:        	http://www.xxxxxxxxxx.com.br/
+
+
+COLORS
+Vermelho: 		  	red
+Cinza claro: 	  	#eaedef
+Cinza Azulado:  	#5d8487
+Azul:           	#2d75b8;
+
+-------------------------------------*/
+
+
+/* -------------------------------------------*/
+/* >>>>>>>>>>>>> FONTS & BODY<<<<<<<<<<<<<<<<-*/
+/* -------------------------------------------*/
+@font-face {
+  font-family: "lato-regular";
+  src: url("../fonts/lato-regular-webfont.eot") format("eot"),url("../fonts/lato-regular-webfont.woff") format("woff"),url("../fonts/lato-regular-webfont.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "lato-light";
+  src: url("../fonts/lato-light-webfont.eot") format("eot"),url("../fonts/lato-light-webfont.woff") format("woff"),url("../fonts/lato-light-webfont.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "lato-bold";
+  src: url("../fonts/lato-bold-webfont.eot") format("eot"),url("../fonts/lato-bold-webfont.woff") format("woff"),url("../fonts/lato-bold-webfont.ttf") format("truetype");
+}
+
+/*Marcador de tamanho reponsivo*/
+#pointer{width: 50px; height: 50px; background-color: #ccc; z-index: 100; position: fixed;bottom: 0}
+
+body{background: #fff; font-family:"lato-light"; font-size: 10px; font-smooth: always; -webkit-font-smoothing : antialiased;}
+h1,h2,h3,h4,h5,h6,p{font-family:"lato-light"}
+h1,h2,h3,h4,h5,h6,p{color: red}
+
+h1 {font-size: 300%; font-weight: normal;}
+h1.uLine{width:100%; display: block;}
+h2 {font-size: 190%;}
+h3 {font-size: 150%; font-weight: bold;}
+h4 {font-size: 150%;}
+h5 {font-size: 140%;}
+h6 {font-size: 130%;}
+p, label {font-size: 140%; color: gray}
+
+.txtRed{color: red !important}
+.txtGray{color: gray !important}
+.txtWhite{color: #fff !important}
+
+.txtxs {font-size: 80% !important;}
+.txtsm {font-size: 120% !important;}
+.txtmd {font-size: 140% !important;}
+.txtlg {font-size: 150% !important;}
+.txtxl {font-size: 160% !important;}
+.txtxxl {font-size: 180% !important;}
+
+strong{font-weight: 700;}
+
+a, a:visited{color:inherit;}
+a:active, a:hover{ color:inherit; text-decoration: underline;}
+
+
+hr{border-bottom:1px solid red; margin: 0 !important}
+
+.txtleft{text-align:left;}
+.txtright{text-align:right;}
+.left{float: left !important;}
+.right{float: right !important;}
+.txtJustificado{text-align: justify;}
+
+.none {display: none;}
+.db{display: block;}
+.oh{overflow: hidden;}
+.tbCell{display: table-cell; vertical-align: middle;}
+
+.bd{border: 1px dashed #000;}
+.bdw{border: 1px dashed #fff;}
+
+.pTop5 {padding-top: 5px !important;}
+.pBot5 {padding-bottom: 5px !important;}
+.pLeft5 {padding-left: 5px !important;}
+.pRight5 {padding-right: 5px !important;}
+.mTop5 {margin-top: 5px !important;}
+.mBot5 {margin-bottom: 5px !important;}
+.mLeft5 {margin-left: 5px !important;}
+.mRight5 {margin-right: 5px !important;}
+
+.pTop10 {padding-top: 10px !important;}
+.pBot10 {padding-bottom: 10px !important;}
+.pLeft10 {padding-left: 10px !important;}
+.pRight10 {padding-right: 10px !important;}
+.pTop20 {padding-top: 20px !important;}
+.pBot20 {padding-bottom: 20px !important;}
+.pLeft20 {padding-left: 20px !important;}
+.pRight20 {padding-right: 20px !important;}
+
+.mTop10 {margin-top: 10px !important;}
+.mBot10 {margin-bottom: 10px !important;}
+.mLeft10 {margin-left: 10px !important;}
+.mRight10 {margin-right: 10px !important;}
+.mTop20 {margin-top: 20px !important;}
+.mBot20 {margin-bottom: 20px !important;}
+.mLeft20 {margin-left: 20px !important;}
+.mRight20 {margin-right: 20px !important;}
+
+.txtCenter {text-align: center;}
+.txtRight {text-align: right: }
+.txtLeft {text-align: left;}
+
+.nopadding {
+   padding: 0 !important;
+   margin: 0 !important;
+}
+.nolpadding {
+   padding-left: 0 !important;
+   margin-left: 0 !important;
+}
+.norpadding{
+  padding-right: 0 !important; 
+  margin-right: 0 !important;
+}
+.notpadding{
+  padding-top: 0 !important; 
+  margin-top: 0 !important;
+}
+
+.breadcrumb, .breadcrumb a{font-size: 100%; color: red !important; font-family: "lato-regular";padding: 35px 0 0 0; background: none !important; font-size: 110%}
+
+/* ------------------------------------*/
+/* >>>>>>>>>>>>> HEADER <<<<<<<<<<<<<<-*/
+/* ------------------------------------*/
+
+
+
+/* ------------------------------------*/
+/* >>>>>>>>>>>>> MAIN <<<<<<<<<<<<<<-*/
+/* ------------------------------------*/
+/*Map*/
+#map_canvas, #map_canvas_centro, #map_canvas_batel {
+  width: 100%;
+  height: 416px;
+  margin-bottom: 0px !important; 
+  padding-bottom: 0;
+}
+
+/*Marcas - Se NÃO USAR SLIDER, APAGAR*/
+.sliderMarcas{overflow: hidden;}
+.marcas{min-height: 87px; margin: 40px 0;}
+.marcas img{float: left; margin: 25px 15px 10px 10px;}
+.marcas img:hover{opacity: .5;}
+
+
+/* ------------------------------------*/
+/* >>>>>>>>>>>>> FOOTER <<<<<<<<<<<<<<-*/
+/* ------------------------------------*/
+
+
+
+/* -------------------------------------*/
+/* >>>>>>>>>>>>> SIDEBAR <<<<<<<<<<<<<<-*/
+/* -------------------------------------*/
+
+
+
+/* -------------------------------------*/
+/* >>>>>>>>>>>>> INDEX <<<<<<<<<<<<<<<<-*/
+/* -------------------------------------*/
+
+
+
+/* -------------------------------------*/
+/* >>>>>>>>>>>>> MEDIA QUERIES <<<<<<<<-*/
+/* -------------------------------------*/
+
+
+
+@media only screen and (min-width : 320px) {
+  #pointer{background-color: #eaedef}
+}
+
+/* Extra Small Devices, Phones - MS*/ 
+@media only screen and (min-width : 480px) {
+  #pointer{background-color: green}
+}
+
+
+/* Small Devices, Tablets - SM */
+@media only screen and (min-width : 768px) {
+  #pointer{background-color: pink}
+}
+
+/* Medium Devices, Desktops - MD*/
+@media only screen and (min-width : 992px) {
+  #pointer{background-color: yellow}
+}
+
+/* Large Devices, Wide Screens - LG*/
+@media only screen and (min-width : 1200px) {
+  .pointer{background-color: orange}
+}
+
+
